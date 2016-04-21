@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "gulp-cache": "~0.1.0",
-    "gulp-jshint": "~1.4.2"
+    "gulp-jshint": "~1.11.2"
   }
 }
