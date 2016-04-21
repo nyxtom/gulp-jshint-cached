@@ -14,8 +14,8 @@ jshintPlugin.cached = function (opt) {
         jshintOpts = fs.readFileSync(opt);
     } else {
         jshintOpts = JSON.stringify(opt);
-    } 
-    
+    }
+
     return cache(jshintPlugin(opt), {
         key: function (file) {
             return [file.contents.toString('utf8'), jshintVersion, jshintOpts].join('');
